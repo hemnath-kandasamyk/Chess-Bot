@@ -1,5 +1,7 @@
 ## Chess - Bot
 
+<img src="https://raw.githubusercontent.com/hemnath-kandasamyk/Chess-Bot/refs/heads/main/docs/images/chess%20poster.png" alt="Description of image" width="2000">
+
 ```text
 Chess Bot/
 │
