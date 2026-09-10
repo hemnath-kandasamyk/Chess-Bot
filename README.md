@@ -1,22 +1,23 @@
-# Chess-Bot
+## Chess - Bot
 
-Chess-Bot/
+```text
+Chess Bot/
 │
-├── frontend/
-│   ├── index.html              # Landing page
-│   ├── dashboard.html         # Player dashboard
-│   ├── play.html              # Play against ChessTwin
-│   ├── analysis.html          # Analyze games
-│   ├── games.html             # Historical games
-│   ├── profile.html           # My Chess DNA
+├── 📂 frontend/
+│   ├── index.html
+│   ├── dashboard.html
+│   ├── play.html
+│   ├── analysis.html
+│   ├── games.html
+│   ├── profile.html
 │   │
-│   ├── css/
+│   ├── 📂 css/
 │   │   ├── style.css
 │   │   ├── dashboard.css
 │   │   ├── chessboard.css
 │   │   └── analysis.css
 │   │
-│   ├── js/
+│   ├── 📂 js/
 │   │   ├── app.js
 │   │   ├── dashboard.js
 │   │   ├── chessboard.js
@@ -24,33 +25,33 @@ Chess-Bot/
 │   │   ├── analysis.js
 │   │   └── games.js
 │   │
-│   └── assets/
-│       ├── images/
-│       ├── icons/
-│       └── sounds/
+│   └── 📂 assets/
+│       ├── 📂 images/
+│       ├── 📂 icons/
+│       └── 📂 sounds/
 │
-├── backend/
-│   ├── app/
+├── 📂 backend/
+│   ├── 📂 app/
 │   │   ├── main.py
 │   │   │
-│   │   ├── routes/
+│   │   ├── 📂 routes/
 │   │   │   ├── games.py
 │   │   │   ├── player.py
 │   │   │   ├── analysis.py
 │   │   │   └── chess.py
 │   │   │
-│   │   ├── models/
+│   │   ├── 📂 models/
 │   │   │   ├── game.py
 │   │   │   ├── move.py
 │   │   │   └── player.py
 │   │   │
-│   │   └── services/
+│   │   └── 📂 services/
 │   │       ├── game_service.py
 │   │       └── analysis_service.py
 │   │
 │   └── requirements.txt
 │
-├── chess_engine/
+├── 📂 chess_engine/
 │   ├── board.py
 │   ├── pieces.py
 │   ├── moves.py
@@ -60,39 +61,40 @@ Chess-Bot/
 │   ├── alpha_beta.py
 │   └── transposition.py
 │
-├── player_model/
+├── 📂 player_model/
 │   ├── feature_extractor.py
 │   ├── style_analyzer.py
 │   ├── player_profile.py
 │   └── move_predictor.py
 │
-├── ml/
+├── 📂 ml/
 │   ├── dataset.py
 │   ├── preprocessing.py
 │   ├── train.py
 │   ├── predict.py
 │   └── model.pkl
 │
-├── data/
-│   ├── raw/
+├── 📂 data/
+│   ├── 📂 raw/
 │   │   └── games.pgn
 │   │
-│   ├── processed/
+│   ├── 📂 processed/
 │   │   └── positions.csv
 │   │
 │   └── player_profile.json
 │
-├── tests/
+├── 📂 tests/
 │   ├── test_board.py
 │   ├── test_moves.py
 │   ├── test_engine.py
 │   └── test_prediction.py
 │
-├── docs/
+├── 📂 docs/
 │   ├── PRD.md
 │   ├── ARCHITECTURE.md
 │   ├── ALGORITHM.md
-│   └── diagrams/
+│   │
+│   └── 📂 diagrams/
 │       ├── architecture.png
 │       └── data_flow.png
 │
